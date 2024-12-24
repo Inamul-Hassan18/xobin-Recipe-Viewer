@@ -1,19 +1,3 @@
-// import Link from 'next/link';
-
-// export default function RecipeCard({ recipe }) {
-//   return (
-//     <Link href={`/recipe/${recipe.idMeal}`}>
-//       <div className="card border rounded shadow p-4 hover:shadow-lg">
-//         <img
-//           src={recipe.strMealThumb}
-//           alt={recipe.strMeal}
-//           className="w-full h-48 object-cover rounded"
-//         />
-//         <h3 className="text-lg font-semibold mt-2">{recipe.strMeal}</h3>
-//       </div>
-//     </Link>
-//   );
-// }
 
 
 import { useState } from 'react';
@@ -58,3 +42,5 @@ export default function RecipeCard({ recipe }) {
     </div>
   );
 }
+
+
